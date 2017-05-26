@@ -9,6 +9,15 @@ $ cnpm install -g webpack
 $ cnpm install --global babel-cli
 
 ```
+1.配置  .babelrc文件
+```
+  {
+    "presets": [
+      "latest"
+    ],
+    "plugins": []
+  }
+```
 2.安装转义规则
 
 ```
